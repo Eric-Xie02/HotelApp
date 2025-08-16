@@ -62,4 +62,5 @@ export async function deleteCabin(id) {
     console.error(error);
     throw new Error("Cabin could not be deleted");
   }
+  return data;
 }
